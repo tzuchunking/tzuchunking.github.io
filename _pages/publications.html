@@ -27,19 +27,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-<h2>Dissertation</h2><hr />
-{% for post in site.publications %}
-  {% if post.category == 'dissertation' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-<h2>Other Publications</h2><hr />
-{% for post in site.publications %}
-  {% if post.category == 'other' %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-
