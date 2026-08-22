@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I teach and research at National Taiwan University, working in the following areas:
+I teach and research at National Taiwan University, Department of Foreign Languages and Literatures, working in the following areas:
 
 - Twentieth-century French literature
 - Contemporary French literature
