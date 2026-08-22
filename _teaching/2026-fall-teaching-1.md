@@ -3,7 +3,7 @@ title: "French I"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2026-fall-teaching-1
-venue: "*National Taiwan University, Department of Foreign Languages and Literatures*"
+venue: "National Taiwan University, Department of Foreign Languages and Literatures"
 date: 2026-09-07
 location: "Taipei, Taiwan"
 ---
