@@ -16,7 +16,7 @@ I teach and research at National Taiwan University, working in the following are
 - Literature and the visual arts
 - Bilingualism and Sino-French exchange
 
-Through my affiliation with the Taiwan Bridges Program (an international academic initiative launched in 2025 by the International Peace Foundation in partnership with National Taiwan University, Academia Sinica and some ten other institutions, which brings Nobel laureates to Taiwan for sustained dialogue with local scholars and students), my current research and teaching focus on the work of J.M.G. Le Clézio, around the following topics:
+Through my affiliation with the Taiwan Bridges Program (an international initiative that brings Nobel laureates to Taiwan for dialogue with local scholars and students), my current research and teaching focus on the work of J.M.G. Le Clézio, around the following topics:
 
 - Materiality and the sensible
 - The body and embodiment
