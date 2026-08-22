@@ -34,7 +34,7 @@ Professional Activities and Service
 Language skills
 ======
 * Chinese
-  * native.
+  * Native.
 * English
   * B.A. focusing on Anglo-American literatures. Fully proficient in delivering public presentations, writing academic articles, and instructing in English.
 * French
