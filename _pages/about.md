@@ -41,7 +41,7 @@ Through my affiliation with the Taiwan Bridges Program (an international initiat
 * 冒險小說與成長小說
 * 漂泊與空間
 * 異國情調
-* 與華語及中國文學的關係
+* 與華語及中國文學之連結
 
 <br />
 
