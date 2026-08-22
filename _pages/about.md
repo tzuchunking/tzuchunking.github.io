@@ -16,7 +16,7 @@ I teach and research at National Taiwan University, working in the following are
 - Literature and the visual arts
 - Bilingualism and Sino-French exchange
 
-Through my affiliation with the Taiwan Bridges Program (cross-cultural exchange with Nobel laureates), my current research and teaching focus on the work of J.M.G. Le Clézio, around the following topics:
+Through my affiliation with the Taiwan Bridges Program (an international academic initiative launched in 2025 by the International Peace Foundation in partnership with National Taiwan University, Academia Sinica and some ten other institutions, which brings Nobel laureates to Taiwan for sustained dialogue with local scholars and students), my current research and teaching focus on the work of J.M.G. Le Clézio, around the following topics:
 
 - Materiality and the sensible
 - The body and embodiment
@@ -25,6 +25,28 @@ Through my affiliation with the Taiwan Bridges Program (cross-cultural exchange 
 - Exoticism
 - Engagement with Chinese language and literature
 
+<br />
 
+法國文學研究者，現任教於國立臺灣大學外國語文學系。研究領域包括：
+
+* 二十世紀法國文學
+* 當代法國文學
+* 文學理論
+* 文學與哲學
+* 文學與視覺藝術
+* 雙語書寫與中法文化交流
+
+因參與「臺灣橋樑計畫」（由中央研究院與國立臺灣大學共同主持，與諾貝爾獎得主進行跨文化交流的計畫），目前的教學與研究聚焦於法國作家、二〇〇八年諾貝爾文學獎得主勒克萊喬（J.M.G. Le Clézio）的作品，探討的議題包括：
+
+* 物質性與感性
+* 身體
+* 冒險小說與成長小說
+* 漂泊與空間
+* 異國情調
+* 與華語及中國文學的關係
+
+<br />
+
+<br />
 
 Acknowledgement: this website is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on [GitHub pages](https://pages.github.com).
