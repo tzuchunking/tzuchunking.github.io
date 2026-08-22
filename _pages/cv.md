@@ -36,6 +36,7 @@ Publications
   {% endfor %}</ul>
 
 <br />
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -43,6 +44,7 @@ Talks
   {% endfor %}</ul>
 
 <br />
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
