@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2027-spring-teaching-1
 venue: "National Taiwan University, Department of Foreign Languages and Literatures"
-date: 2026-02-01
+date: 2027-02-01
 location: "Taipei, Taiwan"
 ---
 
