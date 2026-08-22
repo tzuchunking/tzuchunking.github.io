@@ -45,6 +45,25 @@ Through my affiliation with the Taiwan Bridges Program (an international initiat
 
 <br />
 
+Maître de conférences à l'Université nationale de Taïwan, Département de langues et littératures étrangères. Mes travaux s'inscrivent dans les domaines suivants :
+
+- Littérature française du XXe siècle
+- Littérature française contemporaine
+- Théorie littéraire
+- Littérature et philosophie
+- Littérature et arts visuels
+- Écriture bilingue et échanges littéraires sino-français
+
+Dans le cadre de ma participation au Taiwan Bridges Program (initié par l'International Peace Foundation avec Academia Sinica et l'Université nationale de Taïwan, il invite des lauréats du prix Nobel à venir dialoguer avec les chercheurs et les étudiants taïwanais), mes recherches et mon enseignement portent actuellement sur l'œuvre de J.M.G. Le Clézio, prix Nobel de littérature 2008, autour des axes suivants :
+
+- La matérialité et le sensible
+- Le roman d'aventures et le roman d'apprentissage
+- Errance et espace
+- Exotisme
+- Son rapport à la langue et à la littérature chinoises
+
+<br />
+
 <br />
 
 Acknowledgement: this website is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on [GitHub pages](https://pages.github.com).
