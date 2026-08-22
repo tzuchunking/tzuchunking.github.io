@@ -27,7 +27,7 @@ Employment
 Research activities
 ======
 * Contribution to the *Bibliothèque de la Pléiade* edition of Victor Segalen's work (Gallimard, 2020).
-  * Identified traces of Chinese expressions within the French text of *Stèles* for the chief-editor, Christian Doumet; findings incorporated into the volume's critical apparatus.
+  * Identified traces of Chinese expressions within the French text of *Stèles* for the editor, Christian Doumet; findings incorporated into the volume's critical apparatus.
 
 <br />
 
