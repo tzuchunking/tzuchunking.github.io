@@ -45,6 +45,7 @@ author:
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
+  ntuscholars      : "https://scholars.lib.ntu.edu.tw/entities/person/tzking"
 
 
   # Repositories and software development
