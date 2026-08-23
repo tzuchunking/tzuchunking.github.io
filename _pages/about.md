@@ -21,7 +21,6 @@ I am an Assistant Professor of French Literatures at National Taiwan University,
 I received my Ph.D. in French Literatures at Sorbonne University with a dissertation on Maurice Blanchot. I have published and given public talks on this writer as well as on Victor Segalen. Currently, through my affiliation with the Taiwan Bridges Program (cross-cultural exchange with Nobel laureates), my research and teaching focus on the work of J.M.G. Le Clézio, around the following topics:
 
 - Materiality and the sensible
-- The body and embodiment
 - Adventure novel and *Bildungsroman*
 - Wandering and space
 - Exoticism
