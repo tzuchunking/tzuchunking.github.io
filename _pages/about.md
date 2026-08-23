@@ -56,7 +56,7 @@ Maître de conférences en littérature française à l'Université nationale de
 - Littérature et arts visuels
 - Écriture bilingue et échanges littéraires sino-français
 
-J'ai soutenu une thèse sur Maurice Blanchot à Sorbonne Université. Mes publications et mes communications portent sur cet écrivain ainsi que sur Victor Segalen. Aujourd'hui, dans le cadre de Taiwan Bridges Program (lancé par l'International Peace Foundation avec l'Academia Sinica et l'Université nationale de Taïwan, il invite des lauréats du prix Nobel à venir dialoguer avec les chercheurs et les étudiants taïwanais), mes recherches et mon enseignement sont consacrés à l'œuvre de J.M.G. Le Clézio, prix Nobel de littérature 2008, selon les axes suivants :
+J'ai soutenu une thèse sur Maurice Blanchot à Sorbonne Université. Mes publications et mes communications portent sur cet écrivain ainsi que sur Victor Segalen. Aujourd'hui, dans le cadre de Taiwan Bridges Program (lancé par l'International Peace Foundation avec l'Academia Sinica et l'Université nationale de Taïwan, il invite des lauréats du prix Nobel à venir dialoguer avec les chercheurs et les étudiants taïwanais), mes recherches et mon enseignement sont consacrés à l'œuvre de J.M.G. Le Clézio, prix Nobel de littérature 2008, selon les axes suivants :
 
 - La matérialité et le sensible
 - Le roman d'aventures et le roman d'apprentissage
