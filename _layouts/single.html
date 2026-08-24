@@ -36,6 +36,15 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% comment %}
+            No auto-generated "Published in <venue>, <year>" line. Individual
+            publication pages print the free-text `citation:` field instead,
+            exactly as the Publications listing page does.
+          {% endcomment %}
+          {% if page.citation %}
+            <p class="page__citation">{{ page.citation | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -47,30 +56,26 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% comment %}
+          Resource links only — the "Recommended citation:" block that used to sit
+          here was removed. Recognised fields: paperurl, doiurl, publisherurl,
+          slidesurl, dataurl, codeurl, bibtexurl, plus a `links:` list of
+          {name, url} pairs. Mirrors _includes/archive-single.html.
+        {% endcomment %}
+        {% capture page_links %}
+          {% if page.paperurl %}<span class="pub-link">[<a href="{{ page.paperurl }}">PDF</a>]</span>{% endif %}
+          {% if page.doiurl %}<span class="pub-link">[<a href="{{ page.doiurl }}">DOI</a>]</span>{% endif %}
+          {% if page.publisherurl %}<span class="pub-link">[<a href="{{ page.publisherurl }}">Publisher</a>]</span>{% endif %}
+          {% if page.slidesurl %}<span class="pub-link">[<a href="{{ page.slidesurl }}">Slides</a>]</span>{% endif %}
+          {% if page.dataurl %}<span class="pub-link">[<a href="{{ page.dataurl }}">Data</a>]</span>{% endif %}
+          {% if page.codeurl %}<span class="pub-link">[<a href="{{ page.codeurl }}">Code</a>]</span>{% endif %}
+          {% if page.bibtexurl %}<span class="pub-link">[<a href="{{ page.bibtexurl }}">BibTeX</a>]</span>{% endif %}
+          {% for extra in page.links %}<span class="pub-link">[<a href="{{ extra.url }}">{{ extra.name }}</a>]</span>{% endfor %}
+        {% endcapture %}
+
+        {% assign page_links_stripped = page_links | strip %}
+        {% if page_links_stripped != "" %}
+          <p class="pub-links">{{ page_links_stripped }}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

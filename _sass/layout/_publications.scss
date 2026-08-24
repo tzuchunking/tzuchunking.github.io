@@ -1,0 +1,55 @@
+/* ==========================================================================
+   PUBLICATIONS (and the Talks listing, which shares this type scale)
+   Free-text citation line + bracketed resource links, all at $type-size-5
+   so a listing entry reads at body size throughout.
+   The CV page deliberately stays at the theme's smaller $type-size-6.
+   ========================================================================== */
+
+/* The free-text `citation:` line printed under a publication title.
+   Holds whatever you type: a full recommended citation, a dissertation
+   descriptor, a note about a translation, etc.
+
+   Sized at $type-size-5 (1em) so it reads at the same size as the excerpt
+   line beneath it. The `.page__content` selector is repeated because
+   `_page.scss` carries a `.page__content p { font-size: 1em }` rule whose
+   specificity would otherwise outrank a bare class selector.
+   NB: the CV page deliberately keeps its smaller `.archive__item-excerpt`
+   sizing — see `_includes/archive-single-cv.html`. */
+.archive__item-citation,
+.page__content .archive__item-citation {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+  font-size: $type-size-5;
+  line-height: 1.6;
+}
+
+/* Same free-text citation, in the header of an individual publication page
+   (`_layouts/single.html`). Sits outside `.page__content`, so no specificity
+   workaround is needed here. */
+.page__citation {
+  margin: 0 0 0.5em;
+  font-size: $type-size-5;
+  line-height: 1.6;
+}
+
+/* Talks page: the date line, sized to match the Publications entries rather
+   than the theme's 0.75em `.page__meta`. Keeps `.page__meta`'s muted colour. */
+.page__meta.talk__date,
+.page__content .page__meta.talk__date {
+  font-size: $type-size-5;
+}
+
+/* [PDF] [DOI] [Slides] … row.
+   Sized at $type-size-5 (1em) to match the citation line above it. */
+.pub-links,
+.page__content .pub-links {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  font-size: $type-size-5;
+  color: var(--global-text-color-light);
+
+  .pub-link {
+    margin-right: 0.5em;
+    white-space: nowrap;
+  }
+}

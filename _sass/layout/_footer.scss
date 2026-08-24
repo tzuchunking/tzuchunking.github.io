@@ -14,11 +14,13 @@
   width: 100%;
   clear: both;
 
-  /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
 
-  /* keep the footer on the bottom of the page */
-  position: fixed;
+  /* Sticky footer: pinned to the bottom of the PAGE, not the viewport, so it
+     only comes into view once you scroll to the end. Works together with
+     `html { position: relative; min-height: 100% }` in _base.scss and the
+     `body { padding-bottom }` below, which reserves room for it. */
+  position: absolute;
   bottom: 0;
 
   -webkit-animation: intro 0.3s both;
@@ -57,48 +59,26 @@
   }
 }
 
+/* Room at the end of the page for the absolutely positioned footer, so content
+   never runs underneath it. Overrides the 9em in _base.scss: the footer is
+   slimmer now that it holds only the copyright line. */
+body {
+  padding-bottom: 7em;
+}
+
 @media screen and (max-width: 768px) {
-  /* don't pin the footer on mobile devices */
+  /* on small screens let the footer simply end the document instead */
   .page__footer {
     position: relative;
     bottom: auto;
+  }
+
+  body {
+    padding-bottom: 0;
   }
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
-}
-
-.page__footer-follow {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-
-  li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
-    text-transform: uppercase;
-  }
-
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
-
-  a {
-    padding-right: 10px;
-    font-weight: bold;
-  }
-
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
-  }
 }

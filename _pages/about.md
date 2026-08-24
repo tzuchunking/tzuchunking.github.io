@@ -64,8 +64,3 @@ J'ai soutenu une thèse sur Maurice Blanchot à Sorbonne Université. Mes public
 - Exotisme
 - Son rapport à la langue et à la littérature chinoises
 
-<br />
-
-<br />
-
-Acknowledgement: this website is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on [GitHub pages](https://pages.github.com).
